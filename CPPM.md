@@ -14,6 +14,10 @@ Finally, we present a pipeline with a bandwidth retention and conditional reduct
 This pipeline not only accumulates sufficient photons for a reliable chi-squared test, but also guarantees that the estimate converges to the correct solution under our assumptions.
 We evaluate our method on various benchmarks and observe significant improvement in the running time and rendering quality in terms of mean squared error over prior progressive photon mapping methods.
 
+## Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1iamshDsQOE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## BibTeX
 
 ```
