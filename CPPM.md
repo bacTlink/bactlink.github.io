@@ -1,4 +1,7 @@
+
 # CPPM: Chi-squared Progressive Photon Mapping
+
+Zehui Lin, Sheng Li, Xinlu Zeng, Congyi Zhang, Jinzhu Jia, Guoping Wang and Dinesh Manocha
 
 ![Representative Image](CPPM/papers_268s3.jpg)
 
