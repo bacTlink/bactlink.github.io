@@ -4,7 +4,7 @@ layout: cppm
 
 ![Representative Image](CPPM/papers_268s3.jpg)
 
-### Abstract
+## Abstract
 
 We present a novel chi-squared progressive photon mapping algorithm (CPPM) that constructs an estimator by controlling the bandwidth to obtain superior image quality. Our estimator has parametric statistical advantages over prior nonparametric methods.
 First, we show that when a probability density function of the photon distribution is subject to uniform distribution, the radiance estimation is unbiased under certain assumptions.
@@ -14,7 +14,7 @@ Finally, we present a pipeline with a bandwidth retention and conditional reduct
 This pipeline not only accumulates sufficient photons for a reliable chi-squared test, but also guarantees that the estimate converges to the correct solution under our assumptions.
 We evaluate our method on various benchmarks and observe significant improvement in the running time and rendering quality in terms of mean squared error over prior progressive photon mapping methods.
 
-#### BibTeX：
+## BibTeX
 
 ```
 @article{lin2020cppm,
