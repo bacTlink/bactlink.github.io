@@ -16,7 +16,12 @@ We evaluate our method on various benchmarks and observe significant improvement
 
 ## Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1iamshDsQOE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" onload="resizeIframe(this)" src="https://www.youtube.com/embed/1iamshDsQOE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<script>
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.documentElement.scrollHeight * 0.75 + 'px';
+  }
+</script>
 
 ## BibTeX
 
