@@ -1,4 +1,4 @@
----
+﻿---
 layout: cppm
 ---
 
@@ -16,10 +16,19 @@ We evaluate our method on various benchmarks and observe significant improvement
 
 ## Video
 
-<iframe width="100%" onload="resizeIframe(this)" src="https://www.youtube.com/embed/1iamshDsQOE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="tab">
+  <button class="btn"  onClick="loadiframe('//player.bilibili.com/player.html?aid=584378199&bvid=BV1tz4y1f7u5&cid=231457632&page=1')">Youtube</button>
+  <button class="btn"  onClick="loadiframe('https://www.youtube.com/embed/1iamshDsQOE')">Bilibili</button>
+</div>
+
+<iframe id="video" width="100%" onload="resizeIframe(this)" src="https://www.youtube.com/embed/1iamshDsQOE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <script>
   function resizeIframe(obj) {
     obj.height = obj.scrollWidth * 0.75;
+  }
+  function loadiframe(srcstr) {
+    document.getElementById('video').src = srcstr;
   }
 </script>
 
@@ -37,3 +46,7 @@ We evaluate our method on various benchmarks and observe significant improvement
   DOI = {10.1145/3414685.3417822}
 }
 ```
+
+
+
+
