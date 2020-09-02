@@ -16,10 +16,10 @@ We evaluate our method on various benchmarks and observe significant improvement
 
 ## Video
 
-<div class="tab">
+<section>
   <button class="btn"  onclick="loadiframe('https://www.youtube.com/embed/1iamshDsQOE')">Youtube</button>
   <button class="btn"  onclick="loadiframe('//player.bilibili.com/player.html?aid=584378199&bvid=BV1tz4y1f7u5&cid=231457632&page=1')">Bilibili</button>
-</div>
+</section>
 
 <iframe id="videoiframe" width="100%" onload="resizeIframe(this)" src="https://www.youtube.com/embed/1iamshDsQOE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
