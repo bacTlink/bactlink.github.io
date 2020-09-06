@@ -41,6 +41,7 @@ We evaluate our method on various benchmarks and observe significant improvement
   journal={ACM Transactions on Graphics (TOG)},
   volume={39},
   number={6},
+  article={240},
   year={2020},
   publisher={ACM},
   DOI = {10.1145/3414685.3417822}
