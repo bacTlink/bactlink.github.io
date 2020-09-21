@@ -32,8 +32,8 @@ We evaluate our method on various benchmarks and observe significant improvement
   }
 </script>
 
-## Codes
-Our codes can be found [here](https://github.com/bacTlink/mitsuba-CPPM)
+## Paper and Codes
+Our paper can be found [here](CPPM/SIGA2020_CPPM_paper.pdf) and our codes can be found [here](https://github.com/bacTlink/mitsuba-CPPM).
 
 ## BibTeX
 
