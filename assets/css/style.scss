@@ -11,3 +11,8 @@ header h1:before {
   content: "";
   font-size: 24px;
 }
+
+.btn-pdf .icon {
+  opacity: 0.6;
+  background: url("../images/pdf-logo.png") 0 0 no-repeat;
+}
