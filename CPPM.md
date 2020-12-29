@@ -36,14 +36,19 @@ We evaluate our method on various benchmarks and observe significant improvement
 
 ```
 @article{lin2020cppm,
-  title={CPPM: Chi-squared Progressive Photon Mapping},
-  author={Zehui Lin and Sheng Li and Xinlu Zeng and Congyi Zhang and Jinzhu Jia and Guoping Wang and Dinesh Manocha},
-  journal={ACM Transactions on Graphics (TOG)},
+  author = {Lin, Zehui and Li, Sheng and Zeng, Xinlu and Zhang, Congyi and Jia, Jinzhu and Wang, Guoping and Manocha, Dinesh},
+  title = {CPPM: Chi-Squared Progressive Photon Mapping},
+  year = {2020},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  issn = {0730-0301},
+  url = {https://doi.org/10.1145/3414685.3417822},
+  doi = {10.1145/3414685.3417822},
   volume={39},
   number={6},
-  article={240},
-  year={2020},
-  publisher={ACM},
-  DOI = {10.1145/3414685.3417822}
+  articleno = {240},
+  numpages = {12},
+  month = nov,
+  journal = {ACM Trans. Graph.},
 }
 ```
